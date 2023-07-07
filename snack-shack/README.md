@@ -22,23 +22,23 @@ So if I have four sandwich orders the schedule should be:
 1. `5:30` serve sandwich 4
 1. `6:00` take a well earned break!
 
-## Estimates
+## 1. Estimates
 
 With the schedule in place I should be able to predict when people will get their order when they place it.
 
 Modify your program so that when an order is placed it returns an estimate of how long the customer will have to wait from the order being placed to getting their food, based on the current order.
 
-## Fast food, short tempers
+## 2. Fast food, short tempers
 
 People expect to be able to get their sandwich quickly. If they have to wait more than five minutes they will refuse to pay for it. So in the example above sandwich 4 would have been too late.
 
 Modify the order placement so that it rejects orders that cannot be served in time.
 
-## Inventory
+## 3. Inventory
 
 I only have limited ingredients in the shack: I can only make 45 sandwiches. Orders for something that is sold out should not be accepted. Add inventory tracking to the program and reject orders that cannot be fulfilled.
 
-## Jacket potatoes
+## 4. Jacket potatoes
 
 Sandwiches are great but people really want the option of hot food too. I've decided to offer jacket potatoes. Jacket potatoes are pre-baked but need to be heated in a microwave for 2 and half minutes. I then need 30 seconds to top them and 30 seconds to serve them.
 
@@ -60,10 +60,10 @@ So if there are orders for two sandwiches and a jacket potato the schedule shoul
 1. `4:01` serve jacket potato
 1. `4:31` take a break!
 
-### Potato inventory
+### 5. Potato inventory
 
  I have enough stock to serve 30 jacket potatoes. Modify the program so that I it rejects orders for an item that is sold out. However it should now offer an alternative if it is available, so if I order a sandwich and they are sold out then I should see a list of alternatives that lists a jacket potato.
 
-## More microwaves, more potatoes?
+## 6. More microwaves, more potatoes?
 
 If I buy more microwaves then I can cook more potatoes simultaneously. Modify the program so that I configure how many microwaves I have. The program should warn me if I try to start more jacket potatoes than I can finish and serve.
