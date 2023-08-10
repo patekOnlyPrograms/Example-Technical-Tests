@@ -39,14 +39,18 @@ Letters also have the following distribution:
 
 There is **far** too much work here to be done in the time you've been given. You are **not** expected to complete the whole challenge. 
 
-## Setup
+## Asynchronous Setup
+
+If you are completing this assessment with an Interviewer, you can safely skip this section.
+
+If you are completing this challenge asynchronously, then follow these instructions. 
 
 1. Create a new repository
 2. Create a commit to signal when you have started the challenge
 3. Commit your code often
 4. At the end of the time you've been given, commit your code a final time
 
-Any code committed after the deadline will not be included
+Any code committed after the deadline will not be included.
 
 ## Tasks
 1. Calculate the score for a word. The score is the sum of the points for the letters that make up a word.
