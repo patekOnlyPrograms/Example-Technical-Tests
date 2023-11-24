@@ -53,6 +53,9 @@ If you are completing this challenge asynchronously, then follow these instructi
 Any code committed after the deadline will not be included.
 
 ## Tasks
+
+Complete the following tasks in order:
+
 1. Calculate the score for a word. The score is the sum of the points for the letters that make up a word.
    For example: GUARDIAN = 2 + 1 + 1 + 1 + 2 + 1 + 1 + 1 = 10.
 1. Assign seven tiles chosen randomly from the English alphabet to a player's rack.
