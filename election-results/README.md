@@ -22,6 +22,8 @@ We want to transform this into a standard result that shows:
 * translates the party code into a full name
 * shows the share of the vote as a percentage of all the votes cast
 
+You can find sample data in `sample_results.txt`
+
 ### Codes
 
 * C - Conservative Party
