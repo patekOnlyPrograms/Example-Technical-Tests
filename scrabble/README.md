@@ -35,10 +35,6 @@ Letters also have the following distribution (i.e. a standard game of Scrabble i
 | 2 tiles      | B, C, M, P, F, H, V, W, Y |
 | 1 tile       | K, J, X, Q, Z             |
 
-## ⚠️ Note
-
-There is **far** too much work here to be done in the time you've been given. You are **not** expected to complete the whole challenge. 
-
 ## Asynchronous Setup
 
 If you are completing this assessment with an Interviewer, you can safely skip this section.
@@ -52,9 +48,15 @@ If you are completing this challenge asynchronously, then follow these instructi
 
 Any code committed after the deadline will not be included.
 
+## ⚠️ Note
+
+There is **far** too much work here to be done in the time you've been given. You are **not** expected to complete the whole challenge. 
+
 ## Tasks
 
-Work through the following tasks in order. Each task should be completed before moving onto the next:
+Work through the following tasks **in order**. 
+
+Each task should be completed **before** moving on to the next:
 
 1. Calculate the score for a word. The score is the sum of the points for the letters that make up a word. For example: GUARDIAN = 2 + 1 + 1 + 1 + 2 + 1 + 1 + 1 = 10.
 2. Assign seven tiles chosen randomly from the English alphabet to a player's rack.
