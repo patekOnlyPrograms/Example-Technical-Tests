@@ -9,10 +9,10 @@ counter = 0
 grid = [["." for columns in range(horizontal)] for rows in range(vertical)]
 
 
-for i in range(len(grid)):
+"""for i in range(len(grid)):
     for y in range(len(grid[i])):
         print(grid[i][y], end=" ")
-    print()
+    print()"""
 
 
 
@@ -22,7 +22,7 @@ print("\n")
 
 ## Winning via the row
 
-def winViaRow(input):
+def CheckIfGameWon(input):
 
     for i in range(len(grid)):
         for y in range(len(grid[i])):
@@ -38,6 +38,7 @@ def winViaRow(input):
     return False
 
 def printStateOfBoard(board):
+    print("Updating elements")
     for i in range(len(board)):
         for y in range(len(board[i])):
             print(board[i][y], end=" ")
@@ -57,15 +58,14 @@ while(wonGame == False):
             print("Player 1 turn \n")
             ## update elements
             placeCounter("*")
-
-
-
-
-
-    print("Updating elements")
-
-
-
-
-
-winViaRow(grid)
+            CheckIfGameWon(grid)
+            counter += 1
+            break
+    else:
+        printStateOfBoard(grid)
+        while True:
+            print("Player 2 turn \n")
+            placeCounter("0")
+            CheckIfGameWon(grid)
+            counter += 1
+            break
