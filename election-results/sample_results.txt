@@ -5,6 +5,6 @@ Plymouth Sutton & Devonport, 13958, CO, 13312, L, 5198, LD, 2298, UKIP, 1988, G,
 Ceredigion, 14025, LD, 11205, C, 9052, L, 4920, UKIP, -1121, G, 579, Ind
 Burnley, 11325, L, 10764, C, 3052, LD, 2297, UKIP, 928, G, 431, Ind
 Loughborough, 20057, C, 18302, L, 5026, LD, 3076, UKIP, 2076, G, 599, Ind
-Batley & Spen 21347, L, 19402, C, 4891, LD, 2982, UKIP, 2197, G, 488, Ind
+Batley & Spen, 21347, L, 19402, C, 4891, LD, 2982, UKIP, 2197, G, 488, Ind
 Suffolk Coastal, 24219, C, 19237, L, 6839, LD, 3298, UKIP, 2198, G, 725, Ind
 Leeds East, 25487, L, 19234, C, 4390, LD, 3260, UKIP, 1980, G, 640, Ind
