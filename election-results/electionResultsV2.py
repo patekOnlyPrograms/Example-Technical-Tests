@@ -23,6 +23,8 @@ def process_results(nameOfFile):
         total_votes = 0
         party_votes = []
 
+        print(parts)
+
         try:
             for i in range(1, len(parts), 2):
                 party_code = parts[i + 1].strip()  # Swap the indices to get the correct elements
