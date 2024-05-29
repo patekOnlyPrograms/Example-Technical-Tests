@@ -28,10 +28,10 @@ def print_random_colour(text):
     global color3
     global color4
 
-    color = random.choice(availableColors)
-    color2 = random.choice(availableColors)
-    color3 = random.choice(availableColors)
-    color4 = random.choice(availableColors)
+    color = random.choice(availableColors2)
+    color2 = random.choice(availableColors2)
+    color3 = random.choice(availableColors2)
+    color4 = random.choice(availableColors2)
     fullText = color + text + color2 + text + color3 + text + color4 + text
     print(fullText, end="", flush=True)
 
@@ -58,22 +58,24 @@ def game_loop():
             print("Sorry you cant play there is no more money")
         else:
             colors_printer()
-            win_checker()
+            win_checker(jackpotMoney, playerMoney)
             print("There is where the main prize logic goes")
     else:
         print("Thank you for playing")
 
 
-def win_checker():
-    global jackpotMoney
-    global playerMoney
+def win_checker(jackpotMoneyVariable, playerMoneyVariable):
     if color == color2 and color2 == color3 and color3 == color4:
         print("All colors are the same You win")
-        playerMoney = jackpotMoney
+        playerMoney = jackpotMoneyVariable + playerMoneyVariable
         jackpotMoney = 0
     elif color == color2 and color3 == color4:
         print("You won half of the money in the jackpot")
-        playerMoney = jackpotMoney / 2
+        playerMoney = jackpotMoneyVariable / 2
+
+
+
+
 
 
 game_loop()
